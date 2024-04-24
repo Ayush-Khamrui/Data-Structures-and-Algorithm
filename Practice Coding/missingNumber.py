@@ -47,6 +47,8 @@
 # 5^6^5 = 6
 # 0^5 = 5
 
+# So the time complexity of this approach is O(n)
+
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         xorValue = 0
